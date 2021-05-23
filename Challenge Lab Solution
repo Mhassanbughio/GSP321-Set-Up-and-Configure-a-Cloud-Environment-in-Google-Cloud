@@ -119,3 +119,5 @@ Hostname : {Endpoint's address} (without http...)
 Next -> Next -> Create
 
 ###################################################################################################################################################
+Task - 9 : Provide access for an additional engineer
+Navigation Menu -> IAM & Admin -> IAM -> ADD
