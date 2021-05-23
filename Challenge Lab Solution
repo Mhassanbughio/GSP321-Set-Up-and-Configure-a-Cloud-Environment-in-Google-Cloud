@@ -112,3 +112,7 @@ Navigation Menu -> Monitoring -> Uptime Checks -> + CREATE UPTIME CHECK
 
    Title : Wordpress Uptime
 Next -> Target
+
+Hostname : {Endpoint's address} (without http...)
+ Path : /
+
