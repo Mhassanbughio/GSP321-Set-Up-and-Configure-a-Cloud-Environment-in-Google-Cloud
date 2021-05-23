@@ -34,3 +34,6 @@ gcloud deployment-manager deployments create prod-network \
     --config=prod-network.yaml
 
 cd ..
+
+###################################################################################################################################################
+Task - 3 : Create bastion host
