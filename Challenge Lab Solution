@@ -121,3 +121,7 @@ Next -> Next -> Create
 ###################################################################################################################################################
 Task - 9 : Provide access for an additional engineer
 Navigation Menu -> IAM & Admin -> IAM -> ADD
+
+
+New Member : {Username 2 from Lab instruction page}
+Role : Project -> Editor
