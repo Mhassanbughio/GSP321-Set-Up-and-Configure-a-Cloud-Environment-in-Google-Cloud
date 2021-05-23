@@ -83,6 +83,16 @@ password : stormwind_rules
 
 Save.
 
+cd wp-k8s
+
+kubectl create -f wp-env.yaml
+
+gcloud iam service-accounts keys create key.json \
+    --iam-account=cloud-sql-proxy@$GOOGLE_CLOUD_PROJECT.iam.gserviceaccount.com
+kubectl create secret generic cloudsql-instance-credentials \
+    --from-file key.json
+
+
 ##################################################################################################################################################
 Task - 7 : Create a WordPress deployment
 
