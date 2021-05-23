@@ -100,3 +100,7 @@ In editor: wp-deployment.yaml -> replace YOUR_SQL_INSTANCE with griffin-dev-db.
 
 Save.
 
+kubectl create -f wp-deployment.yaml
+kubectl create -f wp-service.yaml
+
+
