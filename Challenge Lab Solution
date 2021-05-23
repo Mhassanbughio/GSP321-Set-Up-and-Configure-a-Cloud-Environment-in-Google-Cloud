@@ -15,3 +15,6 @@ Task - 9 : Provide access for an additional engineer
 Task - 1 : Create development VPC manually
 
 
+gcloud compute networks create griffin-dev-vpc --subnet-mode custom
+
+
