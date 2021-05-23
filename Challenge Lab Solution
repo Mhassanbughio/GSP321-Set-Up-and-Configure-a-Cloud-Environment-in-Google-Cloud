@@ -23,3 +23,7 @@ gcloud compute networks subnets create griffin-dev-mgmt --network=griffin-dev-vp
 
 ####################################################################################################################################################
 Task - 2 : Create production VPC manually
+
+gsutil cp -r gs://cloud-training/gsp321/dm .
+
+
