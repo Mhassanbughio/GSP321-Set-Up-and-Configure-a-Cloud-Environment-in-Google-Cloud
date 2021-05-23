@@ -21,4 +21,5 @@ gcloud compute networks subnets create griffin-dev-wp --network=griffin-dev-vpc 
 
 gcloud compute networks subnets create griffin-dev-mgmt --network=griffin-dev-vpc --region us-east1 --range=192.168.32.0/20
 
-
+####################################################################################################################################################
+Task - 2 : Create production VPC manually
