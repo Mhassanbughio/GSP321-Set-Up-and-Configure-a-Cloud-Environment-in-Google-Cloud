@@ -81,3 +81,8 @@ Open Editor -> wp-k8s -> wp-env.yaml Change username and password to:
 username : wp_user
 password : stormwind_rules
 
+Save.
+
+##################################################################################################################################################
+Task - 7 : Create a WordPress deployment
+
