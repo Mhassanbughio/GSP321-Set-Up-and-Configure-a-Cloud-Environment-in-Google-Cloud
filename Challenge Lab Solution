@@ -26,4 +26,7 @@ Task - 2 : Create production VPC manually
 
 gsutil cp -r gs://cloud-training/gsp321/dm .
 
+cd dm
+
+sed -i s/SET_REGION/us-east1/g prod-network.yaml
 
