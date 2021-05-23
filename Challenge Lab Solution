@@ -67,5 +67,11 @@ gcloud container clusters create griffin-dev \
   --num-nodes 2  \
   --zone us-east1-b
 
+gcloud container clusters get-credentials griffin-dev --zone us-east1-b
+
+cd ~/
+
+gsutil cp -r gs://cloud-training/gsp321/wp-k8s .
+
 
 
