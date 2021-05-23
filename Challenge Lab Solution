@@ -37,3 +37,7 @@ cd ..
 
 ###################################################################################################################################################
 Task - 3 : Create bastion host
+
+gcloud compute instances create bastion --network-interface=network=griffin-dev-vpc,subnet=griffin-dev-mgmt  --network-interface=network=griffin-prod-vpc,subnet=griffin-prod-mgmt --tags=ssh --zone=us-east1-b
+
+
