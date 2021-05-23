@@ -103,4 +103,6 @@ Save.
 kubectl create -f wp-deployment.yaml
 kubectl create -f wp-service.yaml
 
+###################################################################################################################################################
+Task - 8 : Enable monitoring
 
