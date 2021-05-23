@@ -76,5 +76,4 @@ gsutil cp -r gs://cloud-training/gsp321/wp-k8s .
 ##################################################################################################################################################
 Task - 6 : Prepare the Kubernetes cluster
 
-
-
+Open Editor -> wp-k8s -> wp-env.yaml Change username and password to:
