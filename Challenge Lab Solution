@@ -109,3 +109,6 @@ Task - 8 : Enable monitoring
 Navigation Menu -> Kubernetes Engine -> Services and Ingress -> Copy Endpoint's address.
 
 Navigation Menu -> Monitoring -> Uptime Checks -> + CREATE UPTIME CHECK
+
+   Title : Wordpress Uptime
+Next -> Target
